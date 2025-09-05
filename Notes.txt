@@ -31,3 +31,21 @@ function add(a,b,c){
     return a+b+c
 }
 console.log(add(10,20,30));
+
+//Function example with multiple returns
+//type 1 : object
+function arithmetic (a,b){
+    return{
+        sum: a+b,
+        difference: a-b,
+        product: a*b,
+        reminder: a%b
+    }
+}
+console.log(arithmetic(50,25))
+
+//type 2 : Array
+function arithmetic1 (a,b){
+    return [a+b,a-b,a*b,a%b]
+}
+console.log(arithmetic1(50,25))
