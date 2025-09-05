@@ -1,1 +1,4 @@
-# Function & Its Types
+# Functions
+# array
+# For Loop
+# If-else

@@ -49,3 +49,78 @@ function arithmetic1 (a,b){
     return [a+b,a-b,a*b,a%b]
 }
 console.log(arithmetic1(50,25))
+
+Contents:- 
+1. Array
+2. Looping
+3. IF-Else
+
+1.Array:-
+=> It is a collection of datatype
+=> Array index always starts with 0.
+=> It will be in the sequence manner
+=> to print the array values we have to use index
+syntax:- 
+arrayname[indexvalue]
+=> to find the length of the array we have to use length
+syntax:-
+arrayname.length
+=> to find the last index of the array we have to use length-1
+syntax:-
+arrayname.length-1
+
+
+2.Looping:-
+=>For Loop
+syntax:-
+for(Initialization;condition;increment/decrement)
+{
+    //block of codes
+}
+Initialization:- Intial value
+condition: Depends on the user
+Increment/decrement:- increment by 1 or decrement by 1
+Example:-
+print the values from 1 to 10
+
+for(var i=1; i<10;i=i+1)
+{
+    console.log(i);
+}
+
+Example with array:-
+
+var a = [1,2.5,"abc",true]
+for(var i=0;i<a.length;i=i+1)
+{
+  console.log(a[i])
+}
+
+3.If-Else:-
+
+syntax:-
+
+if(condition)
+{
+    //block of statements
+}
+else
+{
+//block of statements
+}
+
+Example using forloop,array and if-else
+
+var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+for(var i=0;i<a.length;i=i+1)
+{
+  if(a[i]%2===0)
+  {
+    console.log(a[i],"Even")
+  }
+  else
+  {
+    console.log(a[i],"Odd")
+  }
+  
+}
